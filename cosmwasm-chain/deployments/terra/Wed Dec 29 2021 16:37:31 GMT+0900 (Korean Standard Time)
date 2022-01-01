@@ -1,0 +1,7 @@
+terra1ksk3xx6rcalxu4ur8cde38w52t6uhrugxj637v
+
+// bug
+(테라 스왑을 통한 토큰 수집 중 Pool의 한 Pair에 EOA가 존재하여 확인)
+query 시 조회 주소가 컨트랙트가 아닌 EOA일 경우, 예외처리가 없어 에러 떨금
+
+=> 다음 버전 Fix(Fri Dec31 20201)
